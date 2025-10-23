@@ -44,7 +44,6 @@ function handleSubmit(event) {
         });
       } else {
         createGallery(images);
-        console.log('Images found:', images.length);
       }
     })
     .catch(error => {
